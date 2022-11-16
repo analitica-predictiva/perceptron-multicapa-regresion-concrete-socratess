@@ -127,7 +127,7 @@ def pregunta_04():
         estimator=estimator,
         param_grid=param_grid,
         ___ = ____ 
-        ___ = ____  
+        #___ = ____  
     )
 
     return gridsearchcv
