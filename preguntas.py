@@ -111,8 +111,8 @@ def pregunta_04():
     #   * Use parada temprana
 
     param_grid = {
-        'mlpregressor__hidden_layer_sizes': [(1,8,)],
-        'mlpregressor__activation': ["relu"],
+        'mlpregressor__hidden_layer_sizes': [(8,)],
+        'mlpregressor__activation': ['relu'],
         'mlpregressor__learning_rate': ['adaptive'],
         'mlpregressor__momentum': [0.7, 0.8, 0.9],
         'mlpregressor__learning_rate_init': [0.01, 0.05, 0.1],
